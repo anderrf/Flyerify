@@ -1,18 +1,73 @@
-html {
-  font-size: 14px;
+:root{
+  --color-navy: #0F2C67;
+  --color-red: #CD1818;
+  --color-orange: #F3950D;
+  --color-yellow: #F4E185;
+  --color-nav-text: #FFFFFF;
+  font-size: 60%;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
+@media screen and (max-width: 768px) {
+  :root{
+    font-size: 40%;
   }
 }
 
-html {
-  position: relative;
-  min-height: 100%;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body {
-  margin-bottom: 60px;
+body{
+  width: 100vw;
+  min-width: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*Shared layout*/
+header{
+  width: 100%;
+}
+
+nav{
+  font-size: 2rem;
+}
+
+.navbar-brand{
+  font-size: 2.6rem;
+}
+
+.title-div h1{
+  font-size: 4.2rem;
+}
+
+.title-div p{
+  font-size: 1.6rem;
+}
+
+.img-div{
+  height: 40rem;
+  display: flex;
+  align-items: center;
+}
+
+.img-div h3{
+  font-size: 2.4rem;
+}
+
+.img-div p{
+  font-size: 1.6rem;
+}
+
+.push-notification-img{
+  background-image: url('../assets/push-notification.png');
+  flex-direction: row;
+}
+
+.gmail-img{
+  background-image: url('../assets/gmail.png');
+  flex-direction: row-reverse;
 }
