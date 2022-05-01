@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "C8owY2nt+sDPvn1EMWOQccqMGBtrAL7THybUpH5F5Dw=",
+  "Hash": "VeEt/Xc6yRXe1xYojW0qskbQ0ylDWZ4j0nrC57RqH58=",
   "Source": "Flyerify",
   "BasePath": "_content/Flyerify",
   "Mode": "Default",
@@ -66,6 +66,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\gmail.png"
+    },
+    {
+      "Identity": "C:\\Users\\ModalGR\\Documents\\prj\\Flyerify\\Flyerify\\wwwroot\\assets\\images\\template1.png",
+      "SourceId": "Flyerify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ModalGR\\Documents\\prj\\Flyerify\\Flyerify\\wwwroot\\",
+      "BasePath": "_content/Flyerify",
+      "RelativePath": "assets/images/template1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\template1.png"
+    },
+    {
+      "Identity": "C:\\Users\\ModalGR\\Documents\\prj\\Flyerify\\Flyerify\\wwwroot\\assets\\images\\template2.png",
+      "SourceId": "Flyerify",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ModalGR\\Documents\\prj\\Flyerify\\Flyerify\\wwwroot\\",
+      "BasePath": "_content/Flyerify",
+      "RelativePath": "assets/images/template2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\template2.png"
     },
     {
       "Identity": "C:\\Users\\ModalGR\\Documents\\prj\\Flyerify\\Flyerify\\wwwroot\\assets\\logo.svg",

@@ -16318,6 +16318,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\ModalGR\\Documents\\prj\\Flyerify\\Flyerify\\Views\\Home\\Templates.cshtml",
+      "TargetPath": "Views\\Home\\Templates.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\ModalGR\\Documents\\prj\\Flyerify\\Flyerify\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
