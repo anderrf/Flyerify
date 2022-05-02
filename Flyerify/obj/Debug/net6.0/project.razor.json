@@ -16318,6 +16318,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\ModalGR\\Documents\\prj\\Flyerify\\Flyerify\\Views\\Home\\NotFound.cshtml",
+      "TargetPath": "Views\\Home\\NotFound.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ModalGR\\Documents\\prj\\Flyerify\\Flyerify\\Views\\Home\\Templates.cshtml",
+      "TargetPath": "Views\\Home\\Templates.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\ModalGR\\Documents\\prj\\Flyerify\\Flyerify\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -16330,6 +16340,11 @@
     {
       "FilePath": "c:\\Users\\ModalGR\\Documents\\prj\\Flyerify\\Flyerify\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ModalGR\\Documents\\prj\\Flyerify\\Flyerify\\Views\\Home\\Template.cshtml",
+      "TargetPath": "Views\\Home\\Template.cshtml",
       "FileKind": "mvc"
     }
   ],
