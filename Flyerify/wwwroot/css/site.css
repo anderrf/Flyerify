@@ -4,6 +4,7 @@
   --color-orange: #F3950D;
   --color-yellow: #F4E185;
   --color-nav-text: #FFFFFF;
+  --color-lighter-black-text: #555555;
   font-size: 60%;
 }
 
@@ -103,4 +104,32 @@ nav{
   font-size: 2rem;
   text-align: center;
   font-weight: 500;
+}
+
+.template-focus-display{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  column-gap: 3rem;
+  margin-top: 4rem;
+  padding: 3rem;
+}
+
+.template-focus-display img{
+  width: 100%;
+}
+
+.template-info{
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.template-info h3{
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: var(--color-orange);
+}
+
+.template-description{
+  color: var(--color-lighter-black-text);
+  text-align: justify;
 }

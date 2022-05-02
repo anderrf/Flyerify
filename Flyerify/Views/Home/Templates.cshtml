@@ -1,27 +1,18 @@
 @{
     ViewData["Title"] = "Templates";
 }
-
+@model List<TemplateModel>
 <div class="w-100 text-center title-div p-5">
     <h2 class="fw-bold text-warning">Selecione seu template</h2>
 </div>
 <div class="w-100 d-flex justify-content-center">
     <div class="template-display-grid">
-        <a class="template-grid-item" href="">
-            <img src="/assets/images/template1.png" alt="">
-            <p>Template 1</p>
-        </a>
-        <a class="template-grid-item" href="">
-            <img src="/assets/images/template2.png" alt="">
-            <p>Template 2</p>
-        </a>
-        <a class="template-grid-item" href="">
-            <img src="/assets/images/template1.png" alt="">
-            <p>Template 1</p>
-        </a>
-        <a class="template-grid-item" href="">
-            <img src="/assets/images/template2.png" alt="">
-            <p>Template 2</p>
-        </a>
+        @foreach (TemplateModel template in Model)
+        {
+            <a class="template-grid-item" href="/Home/Template/@template.id">
+                <img src="@template.imagePath" alt="">
+                <p>@template.title</p>
+            </a>
+        }
     </div>
 </div>

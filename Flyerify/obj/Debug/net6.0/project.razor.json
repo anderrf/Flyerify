@@ -16336,6 +16336,11 @@
       "FilePath": "c:\\Users\\ModalGR\\Documents\\prj\\Flyerify\\Flyerify\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ModalGR\\Documents\\prj\\Flyerify\\Flyerify\\Views\\Home\\Template.cshtml",
+      "TargetPath": "Views\\Home\\Template.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"
