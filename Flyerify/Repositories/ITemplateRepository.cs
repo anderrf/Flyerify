@@ -5,7 +5,7 @@ namespace Flyerify.Repositories
     public interface ITemplateRepository
     {
         List<TemplateModel> getTemplates();
-        TemplateModel getTemplateById(int id);
+        TemplateModel? getTemplateById(int id);
     }
 
     public class TemplateRepository : ITemplateRepository
@@ -15,11 +15,13 @@ namespace Flyerify.Repositories
             return this.setTemplatesList();
         }
 
-        public TemplateModel getTemplateById(int id)
+        public TemplateModel? getTemplateById(int id)
         {
-            return (TemplateModel)this.setTemplatesList()
+            TemplateModel? template = null;
+            template = (TemplateModel?)this.setTemplatesList()
                 .Where<TemplateModel>(template => template.id == id)
-                .First();
+                .FirstOrDefault();
+            return template;
         }
 
         public List<TemplateModel> setTemplatesList(){

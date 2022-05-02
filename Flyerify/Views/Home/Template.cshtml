@@ -1,8 +1,8 @@
+@model TemplateModel;
 @{
 
-    ViewData["Title"] = "Template";
+    ViewData["Title"] = Model.title;
 }
-@model TemplateModel;
 <div class="w-100 template-focus-display">
     <img src="@Model.imagePath" alt="">
     <div class="template-info">

@@ -32,8 +32,21 @@ public class HomeController : Controller
 
     public IActionResult Template(int id)
     {
-        TemplateModel template = this.templateRepository.getTemplateById(id);
+        if(id <= 0)
+        {
+            return Redirect("/Home/NotFound");
+        }
+        TemplateModel? template = this.templateRepository.getTemplateById(id);
+        if(template == null)
+        {
+            return Redirect("/Home/NotFound");
+        }
         return View(template);
+    }
+
+    public IActionResult NotFound()
+    {
+        return View();
     }
 
     public IActionResult Privacy()
